@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="periode_siklus">
+        <item>20 hari</item>
+        <item>21 hari</item>
+        <item>22 hari</item>
+        <item>23 hari</item>
+        <item>24 hari</item>
+        <item>25 hari</item>
+        <item>26 hari</item>
+        <item>27 hari</item>
+        <item>28 hari</item>
+        <item>29 hari</item>
+        <item>30 hari</item>
+        <item>31 hari</item>
+        <item>32 hari</item>
+        <item>33 hari</item>
+        <item>34 hari</item>
+        <item>35 hari</item>
+        <item>36 hari</item>
+        <item>37 hari</item>
+        <item>38 hari</item>
+        <item>39 hari</item>
+        <item>40 hari</item>
+        <item>41 hari</item>
+        <item>42 hari</item>
+        <item>43 hari</item>
+        <item>44 hari</item>
+        <item>45 hari</item>
+    </string-array>
+</resources>

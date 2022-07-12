@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HealthyMoms</string>
+    <string name="desc_detail_penyakit">Abortus atau aborsi adalah terjadinya keguguran janin sebelum usia 20 minggu. Abortus kompletus adlah abortus yang telah terjadi dan seluruh hasil konsepsi atau janin sudah keluar seluruhnya. \n\n Solusi: \n 1. Tindakan yang mungkin dilakukan adalah USG untuk melihat apakah benar benar tidak ada sisa jaringan di uterus yang jika ada sisanantinyaakan dilakukan kuretase \n 2. Segera melakukan pemeriksaan ke tenaga kesehatan terdekat untuk penanganan lebih lanjut</string>
+    <string name="nama_penyakit">Kehamilan Ektopik Terganggu</string>
+</resources>
