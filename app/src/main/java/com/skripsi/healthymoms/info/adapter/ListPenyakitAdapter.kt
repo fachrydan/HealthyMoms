@@ -1,4 +1,4 @@
-package com.skripsi.healthymoms.adapter
+package com.skripsi.healthymoms.info.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.skripsi.healthymoms.DetailPenyakit
+import com.skripsi.healthymoms.info.DetailPenyakit
 import com.skripsi.healthymoms.R
-import com.skripsi.healthymoms.utils.Penyakit
+import com.skripsi.healthymoms.info.utils.Penyakit
 
 class ListPenyakitAdapter (private val listPenyakit: ArrayList<Penyakit>) : RecyclerView.Adapter<ListPenyakitAdapter.ListViewHolder>() {
 

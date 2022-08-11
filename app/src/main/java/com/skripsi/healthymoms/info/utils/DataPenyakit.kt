@@ -1,4 +1,4 @@
-package com.skripsi.healthymoms.utils
+package com.skripsi.healthymoms.info.utils
 
 object DataPenyakit {
 

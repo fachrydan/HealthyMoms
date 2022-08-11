@@ -15,6 +15,7 @@ class AboutDeveloper : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_developer)
+
         setActionBarTitle(title)
 
         val btnLinkedin: ImageButton = findViewById(R.id.btn_linkedin)

@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
+import androidx.cardview.widget.CardView
 import com.skripsi.healthymoms.tips.TipsMakanan
 import com.skripsi.healthymoms.tips.TipsMinuman
 import com.skripsi.healthymoms.tips.TipsOlahraga
@@ -15,9 +15,9 @@ class Tips : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_tips)
 
         supportActionBar?.hide()
-        val buttonTipsMakanan : Button  = findViewById(R.id.btnT_Makanan)
-        val buttonTipsMinuman : Button  = findViewById(R.id.btnT_Minuman)
-        val buttonTipsOlahraga : Button  = findViewById(R.id.btnT_Olahraga)
+        val buttonTipsMakanan : CardView  = findViewById(R.id.btnT_Makanan)
+        val buttonTipsMinuman : CardView  = findViewById(R.id.btnT_Minuman)
+        val buttonTipsOlahraga : CardView  = findViewById(R.id.btnT_Olahraga)
 
         buttonTipsMakanan.setOnClickListener(this)
         buttonTipsMinuman.setOnClickListener(this)

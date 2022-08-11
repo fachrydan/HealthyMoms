@@ -1,12 +1,9 @@
-package com.skripsi.healthymoms
+package com.skripsi.healthymoms.info
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
-import com.skripsi.healthymoms.utils.DataPenyakit
+import com.skripsi.healthymoms.R
 
 class DetailPenyakit : AppCompatActivity() {
 
@@ -30,10 +27,9 @@ class DetailPenyakit : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
-
         setContentView(R.layout.activity_detail_penyakit)
+
+        //supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
 
         penyakitNames = intent.getStringExtra(DATA_NAMA).toString()
         val penyakitDesc = intent.getStringExtra(DATA_DESC)

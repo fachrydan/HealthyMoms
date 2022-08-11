@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.skripsi.healthymoms">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyMoms"
         tools:targetApi="31">
+        <activity
+            android:name=".tips.makanan.MakananDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".PrediksiTglLahir"
             android:exported="false" />
@@ -26,16 +31,16 @@
             android:name=".tips.TipsMakanan"
             android:exported="false" />
         <activity
-            android:name=".DetailPenyakit"
+            android:name=".info.DetailPenyakit"
             android:theme="@style/AlertDialogNoTitle" />
-
-        <activity android:name=".Tips"
-            android:exported="false"/>
+        <activity
+            android:name=".Tips"
+            android:exported="false" />
         <activity
             android:name=".AboutDeveloper"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".info.InfoPenyakit"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

@@ -1,15 +1,16 @@
-package com.skripsi.healthymoms
+package com.skripsi.healthymoms.info
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.ActionBar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.skripsi.healthymoms.adapter.ListPenyakitAdapter
-import com.skripsi.healthymoms.utils.DataPenyakit
-import com.skripsi.healthymoms.utils.Penyakit
+import com.skripsi.healthymoms.R
+import com.skripsi.healthymoms.info.adapter.ListPenyakitAdapter
+import com.skripsi.healthymoms.info.utils.DataPenyakit
+import com.skripsi.healthymoms.info.utils.Penyakit
 
-class MainActivity : AppCompatActivity() {
+class InfoPenyakit : AppCompatActivity() {
     private lateinit var rvPenyakit: RecyclerView
     private var title = "PENYAKIT & SOLUSI UNTUK MOM'S"
     private var listMain: ArrayList<Penyakit> = arrayListOf()
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setActionBarTitle(title)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_info_penyakit)
 
         rvPenyakit= findViewById(R.id.rv_penyakit)
         rvPenyakit.setHasFixedSize(true)
