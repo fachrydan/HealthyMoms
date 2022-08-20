@@ -44,10 +44,9 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(homeAct)
             }
             R.id.btn_hubungiBidan -> {
-                val homeAct = Intent(this@HomeActivity, AboutDeveloper::class.java)
+                val homeAct = Intent(this@HomeActivity, HubungiBidan::class.java)
                 startActivity(homeAct)
             }
-
             R.id.btn_about -> {
                 val homeAct = Intent(this@HomeActivity, AboutDeveloper::class.java)
                 startActivity(homeAct)
