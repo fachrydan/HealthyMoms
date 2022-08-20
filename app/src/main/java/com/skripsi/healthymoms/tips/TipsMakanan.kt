@@ -20,7 +20,7 @@ class TipsMakanan : AppCompatActivity() {
 
     private fun setViewPager() {
         val fragmentList = listOf(TipsFragmentMakanan())
-        viewpager.adapter = ViewpagerAdapter(fragmentList, this.supportFragmentManager, lifecycle)
+        viewpager_makanan.adapter = ViewpagerAdapter(fragmentList, this.supportFragmentManager, lifecycle)
     }
 
 
