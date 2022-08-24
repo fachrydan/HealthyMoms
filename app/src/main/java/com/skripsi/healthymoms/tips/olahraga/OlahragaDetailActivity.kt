@@ -1,4 +1,4 @@
-package com.skripsi.healthymoms.tips.makanan
+package com.skripsi.healthymoms.tips.olahraga
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,27 +10,27 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.palette.graphics.Palette
 import com.bumptech.glide.Glide
 import com.google.android.material.appbar.AppBarLayout
-import com.skripsi.healthymoms.tips.DetailViewModel
 import com.skripsi.healthymoms.R
-import com.skripsi.healthymoms.databinding.ActivityDetailMakananBinding
-import com.skripsi.healthymoms.tips.makanan.utils.TipsEntityMakanan
+import com.skripsi.healthymoms.databinding.ActivityDetailOlahragaBinding
+import com.skripsi.healthymoms.tips.DetailViewModel
+import com.skripsi.healthymoms.tips.olahraga.utils.TipsEntityOlahraga
 import kotlin.math.abs
 
-class MakananDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
+class OlahragaDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
 
     companion object {
-        const val EXTRA_MAKANAN = "extra_makanan"
+        const val EXTRA_OLAHRAGA = "extra_olahraga"
         const val EXTRA_CATEGORY = "extra_category"
     }
 
-    private lateinit var detailBinding: ActivityDetailMakananBinding
+    private lateinit var detailBinding: ActivityDetailOlahragaBinding
     private val percentageToShowImage = 20
     private var mMaxScrollSize = 0
     private var mIsImageHidden = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        detailBinding = ActivityDetailMakananBinding.inflate(layoutInflater)
+        detailBinding = ActivityDetailOlahragaBinding.inflate(layoutInflater)
         setContentView(detailBinding.root)
 
         supportActionBar?.hide()
@@ -42,23 +42,24 @@ class MakananDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedL
 
         val extras = intent.extras
         if (extras != null) {
-            val dataId = extras.getString(EXTRA_MAKANAN)
+            val dataId = extras.getString(EXTRA_OLAHRAGA)
             val dataCategory = extras.getString(EXTRA_CATEGORY)
 
             if (dataId != null && dataCategory != null) {
-                viewModel.setMakanan(dataId, dataCategory)
-                val food = viewModel.getMakananDetail()
-                populateDataDetail(food)
+                viewModel.setOlahraga(dataId, dataCategory)
+                val olah = viewModel.getOlahragaDetail()
+                populateDataDetail(olah)
             }
         }
     }
 
-    private fun populateDataDetail(data: TipsEntityMakanan) {
+    private fun populateDataDetail(data: TipsEntityOlahraga) {
 
         detailBinding.collapsing.title = data.name
+
         detailBinding.tvDetailOverview.text = data.overview
         detailBinding.tvDetailRincianKalori.text = data.rincianKalori
-        detailBinding.tvDetailManfaat.text = data.detailManfaat
+        detailBinding.tvDetailManfaat.text = data.stepByStep
 
         Glide.with(this)
             .load(data.poster)
@@ -77,7 +78,6 @@ class MakananDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedL
             startActivity(checkLinkIntent)
         }
     }
-
 
     @SuppressLint("NewApi")
     private fun setColorByPalette(poster: Int) {

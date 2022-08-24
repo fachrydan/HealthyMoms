@@ -8,14 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.skripsi.healthymoms.databinding.FragmentTipsBinding
+import com.skripsi.healthymoms.databinding.FragmentTipsMakananBinding
 
 class TipsFragmentMakanan : Fragment() {
 
-    private lateinit var fragmentMakananBinding: FragmentTipsBinding
+    private lateinit var fragmentMakananBinding: FragmentTipsMakananBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        fragmentMakananBinding = FragmentTipsBinding.inflate(layoutInflater, container, false)
+        fragmentMakananBinding = FragmentTipsMakananBinding.inflate(layoutInflater, container, false)
         return fragmentMakananBinding.root
     }
 
@@ -30,7 +30,7 @@ class TipsFragmentMakanan : Fragment() {
 
             val marginVertical = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 16f, resources.displayMetrics)
 
-            with(fragmentMakananBinding.rvTips) {
+            with(fragmentMakananBinding.rvTipsMakanan) {
                 addItemDecoration(MarginItemDecorationMakanan(marginVertical.toInt()))
                 layoutManager = LinearLayoutManager(context)
                 setHasFixedSize(true)

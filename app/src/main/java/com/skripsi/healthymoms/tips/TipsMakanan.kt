@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.ActionBar
 import com.skripsi.healthymoms.R
 import com.skripsi.healthymoms.tips.makanan.adapter.TipsFragmentMakanan
+import com.skripsi.healthymoms.tips.makanan.adapter.ViewpagerAdapterMakanan
 import kotlinx.android.synthetic.main.activity_tips_makanan.*
 
 class TipsMakanan : AppCompatActivity() {
@@ -20,7 +21,7 @@ class TipsMakanan : AppCompatActivity() {
 
     private fun setViewPager() {
         val fragmentList = listOf(TipsFragmentMakanan())
-        viewpager_makanan.adapter = ViewpagerAdapter(fragmentList, this.supportFragmentManager, lifecycle)
+        viewpager_makanan.adapter = ViewpagerAdapterMakanan(fragmentList, this.supportFragmentManager, lifecycle)
     }
 
 

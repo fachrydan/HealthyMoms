@@ -4,24 +4,21 @@
     <string name="nama_penyakit">Kehamilan Ektopik Terganggu</string>
 
 
-    <string name="detail_species">Species</string>
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="detail_status">Status</string>
     <string name="overview">Overview</string>
-    <string name="habitat">Habitat</string>
-    <string name="habitat_detail">Habitat Detail</string>
     <string name="rincian_kalori">Rincian Kalori</string>
     <string name="rincian_kalori_detail">Rincian \nKalori \nDetail</string>
     <string name="overview_detail">Overview Detail</string>
     <string name="poster">Poster</string>
-    <string name="species">Species</string>
-    <string name="animal_name">Animal Name</string>
     <string name="manfaat">Manfaat</string>
     <string name="manfaat_detail">Detail \nManfaat</string>
-    <string name="login">DAFTAR HEWAN LANGKA</string>
-    <string name="welcome">SELAMAT DATANG</string>
+    <string name="step">Step by Step</string>
+    <string name="step_detail">Detail \nStep by step</string>
     <string name="web">Informasi Lanjut Mengenai Gizi</string>
+    <string name="youtube">Video Peragaan Olahraga</string>
+
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nama_bidan">Nama Bidan</string>
     <string name="alamat_bidan">Alamat</string>
     <string name="no_telepon_bidan">No.Telepon :</string>

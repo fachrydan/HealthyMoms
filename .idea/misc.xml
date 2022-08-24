@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable-v24/image_front_shadow.xml" value="0.1895" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable-v24/location_24.xml" value="0.1225" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable/background_pink_circle.xml" value="0.1805" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable/button_for_all.xml" value="0.207" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.207" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/drawable/pink_background.xml" value="0.22" />
@@ -12,22 +13,31 @@
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_about_developer.xml" value="0.22" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_detail_makanan.xml" value="0.2" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_detail_minuman.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_detail_olahraga.xml" value="0.2" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_detail_penyakit.xml" value="0.264" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_info_penyakit.xml" value="0.15670289855072464" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_minuman_detail.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_prediksi_tgl_lahir.xml" value="0.2" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips.xml" value="0.2" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_bumil_emesis.xml" value="0.25" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_bumil_hipertensi.xml" value="0.25" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_makanan.xml" value="0.2" />
-        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_minuman.xml" value="0.3640625" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_minuman.xml" value="0.136" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/activity_tips_olahraga.xml" value="0.3640625" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/content_menu_makan.xml" value="0.176" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/fragment_tips.xml" value="0.265625" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/fragment_tips_bumil_anemia.xml" value="0.19947916666666668" />
-        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/item_row_penyakit.xml" value="0.33" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/fragment_tips_makanan.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/fragment_tips_minuman.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/fragment_tips_olahraga.xml" value="0.22" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/item_row_penyakit.xml" value="0.2682926829268293" />
         <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/layout/item_row_tips.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.199" />
+        <entry key="..\:/Users/Fachry Ramadhan/AndroidStudioProjects/HealthyMoms/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.199" />
       </map>
     </option>
   </component>

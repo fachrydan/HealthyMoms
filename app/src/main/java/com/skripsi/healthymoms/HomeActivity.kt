@@ -13,6 +13,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_home)
 
         supportActionBar?.hide()
+
         val buttonTips : CardView = findViewById(R.id.btn_tips)
         val buttonInformasi : CardView = findViewById(R.id.btn_informasi)
         val buttonPrediksiKelahiran : CardView = findViewById(R.id.btn_prediksiKelahiran)

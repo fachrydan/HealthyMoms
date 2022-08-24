@@ -1,4 +1,4 @@
-package com.skripsi.healthymoms.tips.makanan
+package com.skripsi.healthymoms.tips.minuman
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,27 +10,27 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.palette.graphics.Palette
 import com.bumptech.glide.Glide
 import com.google.android.material.appbar.AppBarLayout
-import com.skripsi.healthymoms.tips.DetailViewModel
 import com.skripsi.healthymoms.R
-import com.skripsi.healthymoms.databinding.ActivityDetailMakananBinding
-import com.skripsi.healthymoms.tips.makanan.utils.TipsEntityMakanan
+import com.skripsi.healthymoms.databinding.ActivityDetailMinumanBinding
+import com.skripsi.healthymoms.tips.DetailViewModel
+import com.skripsi.healthymoms.tips.minuman.utils.TipsEntityMinuman
 import kotlin.math.abs
 
-class MakananDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
+class MinumanDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
 
     companion object {
-        const val EXTRA_MAKANAN = "extra_makanan"
+        const val EXTRA_MINUMAN = "extra_minuman"
         const val EXTRA_CATEGORY = "extra_category"
     }
 
-    private lateinit var detailBinding: ActivityDetailMakananBinding
+    private lateinit var detailBinding: ActivityDetailMinumanBinding
     private val percentageToShowImage = 20
     private var mMaxScrollSize = 0
     private var mIsImageHidden = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        detailBinding = ActivityDetailMakananBinding.inflate(layoutInflater)
+        detailBinding = ActivityDetailMinumanBinding.inflate(layoutInflater)
         setContentView(detailBinding.root)
 
         supportActionBar?.hide()
@@ -42,18 +42,18 @@ class MakananDetailActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedL
 
         val extras = intent.extras
         if (extras != null) {
-            val dataId = extras.getString(EXTRA_MAKANAN)
+            val dataId = extras.getString(EXTRA_MINUMAN)
             val dataCategory = extras.getString(EXTRA_CATEGORY)
 
             if (dataId != null && dataCategory != null) {
-                viewModel.setMakanan(dataId, dataCategory)
-                val food = viewModel.getMakananDetail()
-                populateDataDetail(food)
+                viewModel.setMinuman(dataId, dataCategory)
+                val drink = viewModel.getMinumanDetail()
+                populateDataDetail(drink)
             }
         }
     }
 
-    private fun populateDataDetail(data: TipsEntityMakanan) {
+    private fun populateDataDetail(data: TipsEntityMinuman) {
 
         detailBinding.collapsing.title = data.name
         detailBinding.tvDetailOverview.text = data.overview

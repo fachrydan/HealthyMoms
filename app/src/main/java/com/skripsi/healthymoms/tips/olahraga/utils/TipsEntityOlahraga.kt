@@ -1,15 +1,15 @@
-package com.skripsi.healthymoms.tips.makanan.utils
+package com.skripsi.healthymoms.tips.olahraga.utils
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class TipsEntityMakanan (
+class TipsEntityOlahraga (
     val id: String,
     val name: String,
     val rincianKalori: String,
     val overview: String,
-    val detailManfaat: String,
+    val stepByStep: String,
     val poster: Int,
     val backDrop: Int,
     val link: String,

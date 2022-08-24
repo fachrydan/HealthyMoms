@@ -1,4 +1,4 @@
-package com.skripsi.healthymoms.tips.makanan.adapter
+package com.skripsi.healthymoms.tips.olahraga.adapter
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,18 +11,18 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.skripsi.healthymoms.R
 import com.skripsi.healthymoms.databinding.ItemRowTipsBinding
-import com.skripsi.healthymoms.tips.makanan.MakananDetailActivity
-import com.skripsi.healthymoms.tips.DetailViewModel.Companion.MAKANAN
-import com.skripsi.healthymoms.tips.makanan.utils.TipsEntityMakanan
+import com.skripsi.healthymoms.tips.DetailViewModel
+import com.skripsi.healthymoms.tips.olahraga.OlahragaDetailActivity
+import com.skripsi.healthymoms.tips.olahraga.utils.TipsEntityOlahraga
 
-class TipsMakananAdapter: RecyclerView.Adapter<TipsMakananAdapter.TipsViewHolder>() {
+class TipsOlahragaAdapter : RecyclerView.Adapter<TipsOlahragaAdapter.TipsViewHolder>() {
 
-    private var food = ArrayList<TipsEntityMakanan>()
+    private var olah = ArrayList<TipsEntityOlahraga>()
 
-    fun setMakanan(foods: ArrayList<TipsEntityMakanan>?){
-        if (foods.isNullOrEmpty()) return
-        this.food.clear()
-        this.food.addAll(foods)
+    fun setOlahraga(olahs: ArrayList<TipsEntityOlahraga>?){
+        if (olahs.isNullOrEmpty()) return
+        this.olah.clear()
+        this.olah.addAll(olahs)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TipsViewHolder {
@@ -31,23 +31,23 @@ class TipsMakananAdapter: RecyclerView.Adapter<TipsMakananAdapter.TipsViewHolder
     }
 
     override fun onBindViewHolder(holder: TipsViewHolder, position: Int) {
-        holder.bind(food[position])
+        holder.bind(olah[position])
     }
 
-    override fun getItemCount(): Int = food.size
+    override fun getItemCount(): Int = olah.size
 
     class TipsViewHolder(private val binding: ItemRowTipsBinding) : RecyclerView.ViewHolder(binding.root) {
         @SuppressLint("NewApi")
-        fun bind(makanan: TipsEntityMakanan) {
+        fun bind(olahraga: TipsEntityOlahraga) {
             with(binding) {
-                tvName.text = makanan.name
+                tvName.text = olahraga.name
 
                 Glide.with(itemView.context)
-                    .load(makanan.poster)
+                    .load(olahraga.poster)
                     .transform(RoundedCorners(28))
                     .into(ivPoster)
 
-                val bitmap = BitmapFactory.decodeResource(itemView.context.resources, makanan.poster)
+                val bitmap = BitmapFactory.decodeResource(itemView.context.resources, olahraga.poster)
 
                 Palette.from(bitmap).generate { palette ->
                     val defValue = itemView.resources.getColor(R.color.dark, itemView.context.theme)
@@ -55,14 +55,13 @@ class TipsMakananAdapter: RecyclerView.Adapter<TipsMakananAdapter.TipsViewHolder
                 }
 
                 itemView.setOnClickListener {
-                    val intent = Intent(itemView.context, MakananDetailActivity::class.java)
-                    intent.putExtra(MakananDetailActivity.EXTRA_MAKANAN, makanan.id)
-                    intent.putExtra(MakananDetailActivity.EXTRA_CATEGORY, MAKANAN)
+                    val intent = Intent(itemView.context, OlahragaDetailActivity::class.java)
+                    intent.putExtra(OlahragaDetailActivity.EXTRA_OLAHRAGA, olahraga.id)
+                    intent.putExtra(OlahragaDetailActivity.EXTRA_CATEGORY, DetailViewModel.OLAHARAGA)
 
                     itemView.context.startActivity(intent)
                 }
             }
         }
     }
-
 }

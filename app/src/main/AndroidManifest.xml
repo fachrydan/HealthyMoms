@@ -16,13 +16,13 @@
         android:theme="@style/Theme.HealthyMoms"
         tools:targetApi="31">
         <activity
-            android:name=".HubungiBidan"
+            android:name=".tips.olahraga.OlahragaDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tips.minuman.MinumanDetailActivity"
             android:exported="false" />
         <activity
             android:name=".tips.makanan.MakananDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PrediksiTglLahir"
             android:exported="false" />
         <activity
             android:name=".tips.TipsOlahraga"
@@ -40,6 +40,12 @@
             android:name=".Tips"
             android:exported="false" />
         <activity
+            android:name=".HubungiBidan"
+            android:exported="false" />
+        <activity
+            android:name=".PrediksiTglLahir"
+            android:exported="false" />
+        <activity
             android:name=".AboutDeveloper"
             android:exported="false" />
         <activity
@@ -47,7 +53,10 @@
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
-            android:exported="true">
+            android:exported="false"/>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
