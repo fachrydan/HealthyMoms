@@ -30,6 +30,7 @@
             android:layout_gravity="center_vertical|end"
             android:background="#ffffff"
             android:padding="6dp"
+            android:textSize="15sp"
             android:justificationMode="inter_word"
             android:text="@string/desc_detail_penyakit"/>
 

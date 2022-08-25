@@ -28,9 +28,9 @@ object DataPenyakit {
     )
 
     val descPenyakit = arrayOf(
-        "Anemia adalah kondisi ibu dengan kadar haemoglobin (Hb) dalam darahnya kurang dari 12 gr% .Sedangkan anemia dalam kehamilan adalah kondisi ibu dengan kadar haemoglobin dibawah 11 gr%  pada trimester I dan III atau kadar kurang dari 10,5 gr% pada trimester II. \n" +
-                "   Anemia dalam kehamilan yang disebabkan karena kekurangan zat besi,jenis pengobatannya relatif mudah bahkan murah. Darah akan bertambah banyak dalam kehamilan yang lazim disebut Hidremia atau Hipervolemia. Akan tetapi, bertambahnya sel darah kurang dibandingkan dengan bertambahnya plasma\n" +
-                "   sehingga terjadi pengenceran darah. Perbandingan tersebut adalah sebagai berikut : plasma 30%, sel darah 18% dan haemoglobin 19%. Bertambahnya darah dalam kehamilan sudah dimulai sejak kehamilan 10 minggu dan mencapai puncaknya dalam kehamilan antara 32 dan 36 minggu. Secara fisiologis,\n" +
+        "Anemia adalah kondisi ibu dengan kadar haemoglobin (Hb) dalam darahnya kurang dari 12 gr% .Sedangkan anemia dalam kehamilan adalah kondisi ibu dengan kadar haemoglobin dibawah 11 gr%  pada trimester I dan III atau kadar kurang dari 10,5 gr% pada trimester II. \n\n" +
+                "   Anemia dalam kehamilan yang disebabkan karena kekurangan zat besi,jenis pengobatannya relatif mudah bahkan murah. Darah akan bertambah banyak dalam kehamilan yang lazim disebut Hidremia atau Hipervolemia. Akan tetapi, bertambahnya sel darah kurang dibandingkan dengan bertambahnya plasma\n\n" +
+                "   sehingga terjadi pengenceran darah. Perbandingan tersebut adalah sebagai berikut : plasma 30%, sel darah 18% dan haemoglobin 19%. Bertambahnya darah dalam kehamilan sudah dimulai sejak kehamilan 10 minggu dan mencapai puncaknya dalam kehamilan antara 32 dan 36 minggu. Secara fisiologis,\n\n" +
                 "   pengenceran darah ini untuk membantu meringankan kerja jantung yang semakin berat dengan adanya kehamilan. Kebanyakan anemia dalam kehamilan disebabkan oleh defisiensi besi dan perdarahan akut bahkan tidak jarang keduanya saling berinteraksi. \n\n" +
                 "   Solusi: \n" +
                 "1. konsumsi suplemen tambah darah plus vitamin c untuk mempercepat efek penggunaan suplemen tambah darah \n" +
@@ -99,8 +99,8 @@ object DataPenyakit {
                 "5. Menghindari stress \n" +
                 "6. Segera melakukan pemeriksaan ke tenaga kesehatan terdekat untuk penanganan lebih lanjut",
 
-        "Infeksi saluran kencing adalah sebuah kondisi yang dapat terjadi akibat bakteri yang berasal dari luar tubuh kemudian masuk melalui saluran kencing hingga mencapai bagian uretra. \n" +
-                "   Kemudian infeksi berkembang cepat pada bagian ini. Mengingat bahwa saluran kemih perempuan dekat dengan dubur, maka tak heran jika perempuan rentan terkena infeksi saluran kencing.\n" +
+        "Infeksi saluran kencing adalah sebuah kondisi yang dapat terjadi akibat bakteri yang berasal dari luar tubuh kemudian masuk melalui saluran kencing hingga mencapai bagian uretra. \n\n" +
+                "   Kemudian infeksi berkembang cepat pada bagian ini. Mengingat bahwa saluran kemih perempuan dekat dengan dubur, maka tak heran jika perempuan rentan terkena infeksi saluran kencing.\n\n" +
                 "   Sering buang air kecil saat hamil memang bukan termasuk masalah yang berat, melainkan hal tersebut menggambarkan kondisi yang normal. \n\n" +
                 "   Solusi: \n" +
                 "1. Konsumsi antibiotik sesuai resep dokter \n" +
