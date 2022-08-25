@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728844375901",
+    "project_id": "healthymoms-da57d",
+    "storage_bucket": "healthymoms-da57d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728844375901:android:cef657d7dd702b7512fab4",
+        "android_client_info": {
+          "package_name": "com.skripsi.healthymoms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728844375901-p37u58r68hvon168uvhb9hhnq50nh3j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxDPZjG7sS-L62AyMQyvubi-ORVTw3hJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728844375901-p37u58r68hvon168uvhb9hhnq50nh3j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

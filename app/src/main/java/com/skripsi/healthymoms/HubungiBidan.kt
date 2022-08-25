@@ -36,27 +36,27 @@ class HubungiBidan : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when(v.id){
             R.id.btn_bidan1 -> {
-                val profileBidan1 = "https://wa.me/6281517984048"
+                val profileBidan1 = "https://api.whatsapp.com/send?phone=6281517984048&text=Hello Ms. Raisa, "
                 val checkWhatsAppBidan1= Intent(Intent.ACTION_VIEW, Uri.parse(profileBidan1))
                 startActivity(checkWhatsAppBidan1)
             }
             R.id.btn_bidan2 -> {
-                val profileBidan2 = "https://wa.me/6287880158179"
+                val profileBidan2 = "https://api.whatsapp.com/send?phone=6285885927426&text=Hello Ms. Isyana, "
                 val checkWhatsAppBidan2= Intent(Intent.ACTION_VIEW, Uri.parse(profileBidan2))
                 startActivity(checkWhatsAppBidan2)
             }
             R.id.btn_bidan3-> {
-                val profileBidan3= "https://wa.me/6281517984048"
+                val profileBidan3= "https://api.whatsapp.com/send?phone=6281517984048&text=Hello Ms. Angie, "
                 val checkWhatsAppBidan3 = Intent(Intent.ACTION_VIEW, Uri.parse(profileBidan3))
                 startActivity(checkWhatsAppBidan3)
             }
             R.id.btn_bidan4-> {
-                val profileBidan4= "https://wa.me/6281517984048"
+                val profileBidan4= "https://api.whatsapp.com/send?phone=6281517984048&text=Hello Ms. Pevita, "
                 val checkWhatsAppBidan4 = Intent(Intent.ACTION_VIEW, Uri.parse(profileBidan4))
                 startActivity(checkWhatsAppBidan4)
             }
             R.id.btn_bidan5-> {
-                val profileBidan5= "https://wa.me/6281517984048"
+                val profileBidan5= "https://api.whatsapp.com/send?phone=6281517984048&text=Hello Ms. Anya, "
                 val checkWhatsAppBidan5 = Intent(Intent.ACTION_VIEW, Uri.parse(profileBidan5))
                 startActivity(checkWhatsAppBidan5)
             }

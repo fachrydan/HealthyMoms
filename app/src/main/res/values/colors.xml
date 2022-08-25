@@ -27,6 +27,8 @@
     <color name="secondaryText">#757575</color>
     <color name="dividerColor">#BDBDBD</color>
     <color name="lightgrey">#D9D9D9</color>
+    <color name="Greyed">#252525</color>
+    <color name="darkPurple">#6a1b9a</color>
 
     <color name="greyblue">#10BEF2</color>
 
