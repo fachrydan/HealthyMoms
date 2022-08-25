@@ -27,11 +27,10 @@
             android:textSize="18sp" />
 
         <TextView
-
             android:id="@+id/textUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fach"
+            android:text="Putri"
             android:textColor="@color/textIconColor"
             android:textSize="28sp"
             android:textStyle="bold" />
