@@ -3,10 +3,10 @@ The Guide application for women of childbearing age (pregnant women). This appli
 nutrition & health for pregnant women, making it easier for pregnant women to receive information related to the health of their pregnancy.
 
 ## Built With
-Min SDK: 21
-Target SDK: 31
-Android Studio
-Kotlin
+* Min SDK: 21
+* Target SDK: 31
+* Android Studio
+* Kotlin
 
 ## Screen Shoot
 
